@@ -1,0 +1,105 @@
+.button_container
+{
+	overflow:hidden;
+	/*position:absolute;*/
+	left:15%;
+	margin:.5% auto .5% auto;
+	text-align:center;
+	vertical-align:central;
+	height:70%;
+	clear:both;
+	width:70%;
+	z-index:0;
+	
+	}
+	.button_container a
+	{
+		float:left;
+		width:28%;
+		height:505%;
+		margin:1% 5% 2% 0;
+	}
+	.buttons {
+	
+	overflow: hidden;
+	background: #b72020;
+	position:relative;
+	/*display: inline-block;*/
+	font-size: 2em;	
+	/*box-sizing: border-box;*/
+	-moz-box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	min-height:64px;
+	min-width:56px;
+	/*width:100%;
+	height: 30%;*/
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	margin:5px 50px 20px 50px;
+	font-size:1.5vw;
+	width:100%;
+	height:100%;
+	/*float:left;*/
+	vertical-align:middle;
+	margin-left:auto;
+	margin-top:auto;
+	padding-bottom:auto;
+}
+
+.buttons span {
+	position: absolute;
+	width: 100%;
+	height:100%;
+	text-align:center;
+	opacity: 1;
+	left: 0px;
+	top: 0px;
+	box-sizing: border-box;
+	vertical-align:middle;
+	-moz-box-sizing: border-box;
+	padding: 9px 0;
+	text-align: center;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transition: all 0.6s cubic-bezier(0.05,0.06, 0.05, 0.95);
+	transition: all 0.6s cubic-bezier(0.05, 0.06, 0.05, 0.95);
+	box-shadow: none;
+	color: #582d1d;
+}
+
+.buttons span img
+{
+	
+	width:50%;
+	height:auto;
+	padding-bottom:20px;
+	
+}
+.buttons span:first-of-type {
+	position:relative;
+	z-index: 10;
+	color:white;
+	vertical-align:central;
+}
+
+.buttons span:last-of-type {
+	
+	background: #f6f0f0;
+	left: -200%;
+	
+}
+
+.buttons:hover span {
+	left: 0;
+	color:black;
+}
+.buttons:hover {
+	cursor: pointer;
+}
+
+
+	

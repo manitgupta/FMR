@@ -1,0 +1,123 @@
+/* 	This file contains all the css styles common to all the pages
+	Include this in all the pages
+*/
+
+
+body
+{
+	width:79%;
+	margin-right:auto;
+	margin-left:auto;
+	background-color: #ffffff;
+}
+
+header
+{
+	margin-right:auto;
+	margin-left:auto;
+	overflow:hidden;
+	/*background:url('index_02.jpg') no-repeat scroll 0% 0% transparent;*/
+	background-color: #d41c1c;
+	height:55px;
+	padding-left:10px;
+	padding-right:10px;
+	box-shadow: 0px 0px 8px #000000;
+}
+
+#logo
+{
+	float:left;
+	padding: 10px 10px 10px 10px;
+  	height: 30px;
+  	box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+
+}
+
+#header-title
+{
+	width:auto;
+	float:left;
+}
+
+#header-title-banner
+{
+	margin-right:auto;
+	width:500px;
+}
+
+nav {
+  width:auto;
+  float:right;
+}
+
+nav ul {
+  list-style-type:none;
+  margin-top:30px;
+  float:right;
+}
+
+nav li {
+  float:left;
+  margin-right:10px;
+  color:white;
+}
+
+nav ul li a
+{
+	color:white;
+	text-decoration:none;
+}
+
+section 
+{
+	background-color:white;
+	margin-right:auto;
+	margin-left:auto;
+	padding:10px;
+	box-shadow: 0px 0px 8px #000000;
+}
+
+footer 
+{
+  height:20%;
+  /*background:url('index_02.jpg') no-repeat scroll 0% 0% transparent;*/
+  background-color: #d41c1c;
+  color:white;
+  margin-right:auto;
+  margin-left:auto;
+  height:35px;
+  padding:10px;
+  box-shadow: 0px 0px 8px #000000;
+}
+
+#footer-nav
+{
+	margin-top:-30px;
+}
+
+#invalid-login
+{
+	color:red;
+}
+
+.home-links
+{
+	padding:5px;
+}
+
+#select-box
+{
+	margin-top:-15px;
+	margin-bottom:-15px;
+}
+
+#submit
+{
+	margin-top:7px;
+	margin-left:30px;
+}
+
+.table-space
+{
+	width:10px;
+}
